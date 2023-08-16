@@ -1,0 +1,797 @@
+ 
+ body
+ {
+    background-color: #f5f5f5;
+ }
+
+ 
+ /******************* start section header  **************/
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/hero-bg.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.layer
+{
+    position: absolute;
+    top:0 ;bottom:0 ;left:0 ;right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************** section-navbar *********************/
+.section-navbar
+{
+     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 33;
+}
+
+.nav-elements a 
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.nav-elements a:hover
+{
+    color: #fff;
+    border-bottom: solid 1px #fff;
+}
+.nav-elements
+{
+      justify-content: end;
+}
+
+.NavBrand
+ {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fff;
+    /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";; */
+ 
+}
+ 
+
+
+/* section home heading  */
+
+ 
+.home-heading h1 
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.home-heading h2 
+{
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+ .home-heading h2::after
+ {
+    content: "";
+    animation: typing 9s infinite;
+ }
+
+ @keyframes typing
+ {
+    0%
+    {
+content: "|";
+    }
+
+    3%
+    {
+        content: "W|";
+
+    }
+
+    6%
+    {
+        content: "We|";
+
+    }
+    9%
+    {
+        content: "Web|";
+
+    }
+
+    12%
+    {
+        content: "Web D|";
+
+    }
+
+    15%
+    {
+        content: "Web De|";
+
+    }
+
+    18%
+    {
+        content: "Web Dev|";
+
+    }
+    21%
+    {
+        content: "Web Deve|";
+
+    }
+
+    24%
+    {
+        content: "Web Devel|";
+
+    }
+
+    27%
+    {
+        content: "Web Develo|";
+
+    }
+    30%
+    {
+        content: "Web Develop|";
+
+    }
+    33%
+    {
+        content: "Web Develope|";
+
+    }
+    
+    
+    34%
+    {
+        content: "|";
+
+    }
+
+    35%
+    {
+        content: "W|";
+
+    }
+    
+
+    39%
+    {
+        content: "We|";
+
+    }
+    42%
+    {
+        content: "Web|";
+
+    }
+
+    45%
+    {
+        content: "Web D|";
+
+    }
+
+    48%
+    {
+        content: "Web De|";
+
+    }
+
+    51%
+    {
+        content: "Web Des|";
+
+    }
+
+    54%
+    {
+        content: "Web Desi|";
+
+    }
+
+
+    57%
+    {
+        content: "Web Desig|";
+
+    }
+
+
+    60%
+    {
+        content: "Web Design|";
+
+    }
+    63%
+    {
+        content: "Web Designe|";
+
+    }
+    66%
+    {
+        content: "Web Designer|";
+
+    }
+
+
+    69%
+    {
+        content: "Web Developer|";
+
+    }
+
+    
+    70%
+    {
+        content: "|";
+
+    }
+
+
+    
+    72%
+    {
+        content: "F|";
+
+    }
+
+    75%
+    {
+        content: "Fr|";
+
+    }
+    78%
+    {
+        content: "Fre|";
+
+    }
+    81%
+    {
+        content: "Free|";
+
+    }
+    84%
+    {
+        content: "Freel|";
+
+    }
+
+    87%
+    {
+        content: "Freela|";
+
+    }
+
+    90%
+    {
+        content: "Freelan|";
+
+    }
+    93%
+    {
+        content: "Freelanc|";
+
+    }
+    96%
+    {
+        content: "Freelance|";
+
+    }
+    100%
+    {
+        content: "Freelancer|";
+
+    }
+
+
+
+
+
+
+ }
+
+
+ /* start section about  */
+
+
+ /* left-about-side */
+
+ .describtion-data  h6 
+{
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 50px;
+
+}
+
+.describtion-data span 
+{
+    color: #4e4e4e;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+ }
+
+
+.progress-section
+{
+    margin-top: 50px;
+}
+
+.progress-section h5 
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1e1e;
+    line-height: 26px;
+}
+
+.progress-section span 
+{
+color: #4e4e4e;
+line-height: 24px;
+font-size: 16px;
+font-weight: 400;
+ }
+
+ /************** right-side-about  ************/
+
+.heading-right-side-about
+{
+    color: #1e1e1e;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+.empty
+ {
+     background-color: #0078ff;
+    width: 90px;
+    height: 3px;
+ }
+
+ .FP
+ {
+    margin-top: 30px;
+ }
+
+ .right-side-about p 
+ {
+    color: #4e4e4e;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+
+ }
+ /************* services ****************/
+ .services   
+ {
+    margin-top: 55px;
+ }
+.services-child 
+{
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+        
+}
+ .services-child i
+ {
+    background-color: transparent;
+    /* border: 10px solid rgb(0,120,255); */
+    box-shadow: 0 0 0 10px #0078ff;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all .7s;
+    margin-bottom: 30px;
+ }
+
+.services-child:hover i
+{
+    border: none;
+    /* border: 10px solid rgb(0,120,255,0.9); */
+    box-shadow: 0 0 0 10px rgb(0,120,255,0.3);
+     background-color:rgb(0,120,255); ;
+    color: #fff
+}
+
+.services-child p 
+{
+    padding: 10px 26px;
+}
+
+.Heading-secion 
+{
+    text-align: center;
+}
+.Heading-secion h1 
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #1e1e1e;
+}
+.Heading-secion p 
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 24px;
+}
+
+.underline 
+{
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.row
+{
+    margin: 0;
+    
+}
+ /** Works***/
+ .works
+ {
+    padding: 8rem 0 ;
+    background-image: url('../img/counters-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+ }
+
+ .up-layer-work
+ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0078ff;
+    opacity: 0.7;
+    z-index: -1;
+ }
+
+ .works-child 
+ {
+     text-align: center;
+    padding: 10px;
+    color: #fff;
+ }
+
+ .works-child i 
+ {
+     width: 60px;
+     height: 60px;
+     padding: 5px;
+     line-height: 1.5;
+     box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+ }
+
+ .works-child h4 
+{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+}
+
+.works-child p 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*************portfolio *********************/
+.portfolio-child 
+{
+    background-color: #fff;
+ }
+
+.portfolio-child-img
+{
+overflow: hidden;
+}
+
+.portfolio-child-img  img 
+{
+width: 100%;
+transition: all .6s ease-in-out;
+
+}
+.portfolio-child:hover .portfolio-child-img>img 
+{
+    transform: scale(1.2,1.2);
+
+}
+
+
+
+.portfolio-child .content
+{
+    background-color: #fff;
+    padding: 30px 13px 10px 13px;
+    position: relative;
+}
+
+.portfolio-child .content p 
+{
+    font-weight:500;
+    font-size: 19px;
+    line-height:23px;
+    color:#1e1e1e;
+}
+
+.portfolio-child span 
+{
+    font-weight:400;
+    font-size: 13px;
+    line-height:19px;
+    color:#0078ff;
+}
+
+.portfolio-child .spanData
+{
+    color: #1e1e1e;
+}
+
+.content i 
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 700;
+    /* font-size: 30px; */
+    
+     color: #0078ff;
+    border:3px solid #0078ff ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+ 
+
+
+
+ /***********blog***********/
+ 
+ .blog-child 
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+ }
+
+.blog-child-img
+{
+overflow: hidden;
+}
+
+.blog-child-img  img 
+{
+width: 100%;
+ 
+}
+ 
+.title-center 
+{
+  text-align: center;  
+  margin-top: -10px;
+}
+
+.blog-child .content
+{
+    background-color: #fff;
+    padding: 15px 13px 10px 13px;
+    position: relative;
+}
+
+.blog-child .content h5
+{
+    font-weight:500;
+    font-size: 21px;
+    line-height:25px;
+    color:#1e1e1e;
+}
+
+
+
+
+
+
+
+.blog-child p 
+{
+    font-weight:400;
+    font-size: 16px;
+    line-height:24px;
+    color:#4e4e4e;
+}
+
+.blog-child .spanData
+{
+    color: #1e1e1e;
+}
+ 
+
+
+
+.title-center span
+{
+     padding: 4px 20px;
+    border-radius: 3px;
+    background-color: #0078ff;
+color: #fff; 
+}
+
+
+.blog-footer
+{
+    border-top: 1px #1e1e1e solid;
+    padding:5px 20px;
+    position: relative;
+ }
+
+.blog-footer img 
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    
+}
+
+.date
+{
+     text-align: center;
+    position: absolute;
+    right: 13px;
+    top: 6px;
+    color: #4e4e4e;
+    background-color: #f8f8f8;
+}
+
+
+
+
+
+/********* Forms ***********/
+
+.form
+{
+   padding: 8rem 0 ;
+   background-image: url('../img/overlay-bg.jpg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    position: relative;
+   z-index: 1;
+}
+
+
+.under-line-heading
+{
+    background-color: #0078ff;
+    height: 3px;
+    width: 100px;
+    margin-left: 20px;
+
+} 
+
+.form .form-left-side 
+{
+ padding-top: 40px;
+ padding-left: 20px;
+}
+
+.form-heading
+{
+    padding-left: 20px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1e1e1e;
+}
+
+.but  button
+{
+    background-color: #0078ff;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+}
+
+.form-right-side p
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #747474;
+    margin-top: 11px;
+}
+
+.info i 
+{
+    color: #0078ff;
+}
+
+.form-right-side span 
+{
+    color: #4e4e4e;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.icons i
+{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 50%;
+    border: #0078ff 2px solid;
+}
+
+
+/***********footer **************/
+
+.footer 
+{
+    background-color: #0062d3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+ }
+
+.name
+{
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+}
